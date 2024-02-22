@@ -1,0 +1,23 @@
+<div class="container py-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="card border-0 shadow">
+        <div class="card-body text-center">
+          <h1 class="card-title mb-4">{{ product?.name }}</h1>
+          <p class="card-text mb-2"><strong>Price:</strong> {{ product.price }}</p>
+          <p class="card-text mb-4"><strong>Quantity:</strong> {{ product.quantity }}</p>
+          <div class="d-flex justify-content-center mb-4">
+            <i class="text-warning bi bi-star-fill fs-3"></i>
+            <i class="text-warning bi bi-star-fill fs-3"></i>
+            <i class="text-warning bi bi-star-fill fs-3"></i>
+            <i class="text-warning bi bi-star-fill fs-3"></i>
+            <i class="text-warning bi bi-star-fill fs-3"></i>
+          </div>
+          <button (click)="backToProduct()" class="btn btn-primary btn-lg">
+            Back To Products
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

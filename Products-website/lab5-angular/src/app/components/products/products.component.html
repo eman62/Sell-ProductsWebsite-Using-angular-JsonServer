@@ -1,0 +1,27 @@
+<div class="mt-5">
+  <div class="container">
+    <h1 class="text-center mb-3">Our Products</h1>
+    <div class="row">
+      <div class="col-md-4" *ngFor="let product of products">
+        <div class="card mb-3">
+          <div class="card-body">
+            <h5 class="card-title">{{ product?.name }}</h5>
+            <p class="card-text">Price: {{ product?.price }}</p>
+            <p class="card-text">Quantity: {{ product?.quantity }}</p>
+            <div class="text-center">
+              <a [routerLink]="['/products', product.id, 'edit']" class="btn btn-info mx-2">
+                <i class="bi bi-pencil-square"></i> Edit
+              </a>
+              <button class="btn btn-danger mx-2" (click)="deleteProductHandler(product.id)">
+                <i class="bi bi-trash3"></i> Delete
+              </button>
+              <a [routerLink]="['/products', product.id]" class="btn btn-warning mx-2">
+                <i class="bi bi-eye-fill"></i> View
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

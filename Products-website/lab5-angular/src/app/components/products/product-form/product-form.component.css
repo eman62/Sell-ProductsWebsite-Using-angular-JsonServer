@@ -1,0 +1,24 @@
+.custom-form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.custom-form .form-label {
+    font-weight: bold;
+}
+
+.custom-form .form-control {
+    margin-bottom: 15px;
+}
+
+.custom-form .invalid-feedback {
+    color: red;
+    font-size: 12px;
+}
+
+.custom-form button {
+    margin-top: 20px;
+}

@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "name": "chair",
+      "price": 800,
+      "quantity": 46,
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Room",
+      "price": 700,
+      "quantity": 98
+    },
+    {
+      "id": "3",
+      "name": "Couch",
+      "price": 100,
+      "quantity": 75
+    },
+    {
+      "id": "4",
+      "name": "Bed",
+      "price": 300,
+      "quantity": 58
+    },
+    {
+      "id": "5",
+      "name": "Living Room",
+      "price": 50,
+      "quantity": 70
+    },
+    {
+      "name": "vase",
+      "price": 940,
+      "quantity": 25,
+      "id": "2eaf"
+    },
+    {
+      "id": "0237",
+      "name": "jhjj",
+      "price": 55,
+      "quantity": 55
+    }
+  ]
+}
